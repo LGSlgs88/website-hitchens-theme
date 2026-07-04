@@ -22,12 +22,12 @@ layout: default
   </header>
 {% endif %}
 
-<main class="home" id="main" role="main" aria-label="Content">
+<main class="home" role="main" aria-label="Content">
   <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-138468381-scaled-e1619028416767.jpg?fit=750%2C750&original_fit=696,464">
 
   <p class="intro">I'm Lucy, this is a picture of me... well actually it's a sweet kitten, but here is where we could put a photo and text if you wanted?<br></p>
 
-  <h1 class="content-title divided">
+  <h1 class="content-title divided" id="main">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
     {% else %}
@@ -70,6 +70,5 @@ layout: default
     </ul>
   
   {% endif %}
-    
 
 </main>
