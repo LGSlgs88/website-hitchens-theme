@@ -21,12 +21,16 @@ layout: default
     {% endif %}
   </header>
 {% endif %}
-
+  
 <main class="home" role="main" aria-label="Content">
-  <img src="https://www.rd.com/wp-content/uploads/2021/04/GettyImages-138468381-scaled-e1619028416767.jpg?fit=750%2C750&original_fit=696,464">
+  <!-- BIO SECTION -->
+  <img src="assets\images\lucy-bio-pic-4.png">
 
-  <p class="intro">I'm Lucy, this is a picture of me... well actually it's a sweet kitten, but here is where we could put a photo and text if you wanted?<br></p>
-
+  <p class="intro">
+    Hello and welcome to my official website! My name is Lucy: a writer extraordinaire and I’m thrilled you’re here. I regularly blog and share my thoughts on this marvellous page. If you want to know more then check out my <a href="{{ site.baseurl  }}/about.html">About</a> section. <br>
+    Enjoy and feel free to reach out if you have questions :)
+</p>
+<!--BIO SECTION end -->
   <h1 class="content-title divided" id="main">
     {% if site.paginate and site.paginate_path and paginator.page > 1 %}
       Page {{ paginator.page }}
