@@ -33,4 +33,3 @@ Yes, it seems obvious, but commenting on an author’s post to ask a question, c
 
 
 In summary, it’s important to bite the bullet and be proactive out there. This is where your readers are, where your editors lie in wait and where a publisher could see your work. A bit like the gym. I hate to be there, but at the same time I feel better for having pushed myself out of my comfort zone…
-
